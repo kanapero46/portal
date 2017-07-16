@@ -5,7 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
+
+import org.eclipse.jdt.internal.compiler.ast.Statement;
 
 public class DBManager {
 
@@ -20,7 +21,6 @@ public class DBManager {
 	private static final String USER_NAME = "db_user";
 	/** DB接続するためのパスワード */
 	private static final String PASSWORD = "systemsss";
-
 	/**
 	 * DBと接続する
 	 *

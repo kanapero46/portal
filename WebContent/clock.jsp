@@ -4,8 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-
+<title>time</title>
 <!-- 時計表示スクリプト -->
 <script>
 //現在の時間を表示する
@@ -31,19 +30,9 @@ function set2fig(num) {
 
 </script>
 
-
 </head>
 <body>
-<h2>index</h2>
-
-
-<table border="1">
-<th>サイト説明</th>
-<td><a href="http://www.yahoo.co.jp">http://www.yahoo.co.jp</a>
-</td>
-
-
-</table>
-
+<!-- 時計表示エリア -->
+<p id="RealtimeClockArea">※Now Loading</p>
 </body>
 </html>
