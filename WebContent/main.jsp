@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 
+<!-- 時計表示スクリプト -->
 <script>
 //現在の時間を表示する
 function set2fig(num) {
