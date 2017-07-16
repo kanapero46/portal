@@ -9,7 +9,13 @@ public class DBconnect {
 
 	public void process(ServletConfig config)throws ServletException,SQLExcepiton{
 
-		Connection con = DBManager.getConnection();
+		String sql = "SELECT * from p_user";
+
+		try{
+			con = DBManager.getConnection();
+			smt = con.createStatement();
+			ResuleSet rs = smt.executeQuery(sql);
+		}
 
 
 

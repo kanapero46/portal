@@ -1,5 +1,6 @@
 package srv;
 
+import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 
@@ -18,8 +19,9 @@ public class Insert extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-    public void show(){
+    public void doGet(HttpServletRequest req,HttpServletResponce res)throws ServletException , IOException{
     	//ページの表示
+    	String sql = setting.SQLSource.getSQL(1);
     }
 
 }

@@ -6,6 +6,8 @@ public class DBDate {
 	private String URL;
 	private String name;
 	private String date;
+
+
 	public int getId() {
 		return id;
 	}
