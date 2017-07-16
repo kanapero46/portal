@@ -17,8 +17,8 @@ public class DBDate {
 	public String getURL() {
 		return URL;
 	}
-	public void setURL(String uRL) {
-		URL = uRL;
+	public void setURL(String url) {
+		URL = url;
 	}
 	public String getName() {
 		return name;

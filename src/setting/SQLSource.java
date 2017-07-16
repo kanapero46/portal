@@ -16,7 +16,7 @@ public class SQLSource {
 	 * 3:update（更新分)
 	 * 4:*（全件表示)
 	 */
-	public String getSQL(int param , String tName){
+	public static String getSQL(int param , String tName){
 		String rSQL = null;
 		switch(param){
 		case 4:
